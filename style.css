@@ -107,9 +107,26 @@ button{
     font-weight: 900;
     font-size: 36px;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .middle-content{
+    display: flex;
+                gap:px;
+    justify-content: center;
+}
+
+.main-box-1{
+    height: 180px;
+    width: 180px;
+    border: 4px solid black;
+    border-radius: 5px;
+    display: flex;
+    
+
+}
+
+.box-1{
     display: flex;
     
 }
