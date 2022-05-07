@@ -1,6 +1,7 @@
 body{
     margin: 0%;  
     font-family: sans-serif; 
+   
     
 }
 
@@ -9,13 +10,15 @@ body{
 .hero{
     background-color: #1f2937;
     height: 455px;
+    
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 400px;
     align-items: center;
+
     
 }
 
@@ -41,17 +44,17 @@ link.link3{
 
 }
 
-/* HEADER END */
 
-/* HERO START */
+
+
 
 .main-content{
     display: flex;
     align-items: center ;
     justify-content: center;
+    justify-self: center;
     gap: 280px;
     margin-top: 100px;
-   
 }
 
 
@@ -74,7 +77,7 @@ button{
     font-weight: bold;
     width: 100px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: white;
 }
 
@@ -84,4 +87,29 @@ button{
 }
 
 
-/* HERP END */
+/* HEADER END */
+
+
+/* SOME RANDOM INFORMATION STARTS */
+
+
+.middle-container{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    flex-direction: column;
+}
+
+.middle-header{
+    display: flex;
+    color: white;
+    font-weight: 900;
+    font-size: 36px;
+    justify-content: center;
+}
+
+.middle-content{
+    display: flex;
+    
+}
