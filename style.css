@@ -97,13 +97,13 @@ button{
     display: flex;
     height: 400px;
     width: 100%;
-    background-color: red;
+    background-color: white;
     flex-direction: column;
 }
 
 .middle-header{
     display: flex;
-    color: white;
+    color: black;
     font-weight: 900;
     font-size: 36px;
     justify-content: center;
@@ -135,4 +135,45 @@ button{
 .img1, .img3{
     height: 180px;
     width: 180px;
+}
+
+
+/* QUOTE START */
+
+.quote{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+.master{
+    font-weight: bolder;
+}
+
+
+
+/* COPYRIGHT STARTS */
+
+.copyright{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 5px;
+    font-size: larger;
 }
