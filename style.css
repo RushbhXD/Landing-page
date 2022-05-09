@@ -112,8 +112,9 @@ button{
 
 .middle-content{
     display: flex;
-                gap:px;
+    gap:60px;
     justify-content: center;
+    margin-top:60px;
 }
 
 .main-box-1{
@@ -129,4 +130,9 @@ button{
 .box-1{
     display: flex;
     
+}
+
+.img1, .img3{
+    height: 180px;
+    width: 180px;
 }
